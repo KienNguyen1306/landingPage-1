@@ -6,6 +6,10 @@ html {
   font-size: 62.5%;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
 :root {
   --primary-color: #0f1b4c;
 }
@@ -57,8 +61,11 @@ a {
 }
 .header {
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .navbar {
@@ -100,7 +107,7 @@ a {
 }
 
 .hero {
-  padding-top: 130px;
+  /* padding-top: 130px; */
 }
 .hero .info {
   width: 51%;
