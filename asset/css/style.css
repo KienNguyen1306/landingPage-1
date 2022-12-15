@@ -368,8 +368,7 @@ a {
 
 /* ================ stats ================== */
 .stats {
-  margin-top: 75px;
-  padding: 50px 0;
+  padding: 135px 0 30px 0;
 }
 
 .stats .row {
@@ -513,7 +512,7 @@ a {
 
 /* =========subcription======= */
 .subcription {
-  margin-top: 90px;
+  padding-top: 110px;
 }
 
 .subcription .body {
