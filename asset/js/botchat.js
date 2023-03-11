@@ -39,3 +39,16 @@ window.fbAsyncInit = function () {
   js.src = "https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js";
   fjs.parentNode.insertBefore(js, fjs);
 })(document, "script", "facebook-jssdk");
+
+// ========================== scoll reveal ===================================
+
+ScrollReveal({
+  reset: true,
+  delay: 200,
+  distance: "80px",
+  duration: 2000,
+});
+
+ScrollReveal().reveal(".scroll-top", { origin: "top" });
+ScrollReveal().reveal(".scroll-bottom", { origin: "bottom" });
+ScrollReveal().reveal(".opacity", { scale: 0.85, distance: "0px" });
